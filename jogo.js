@@ -117,7 +117,7 @@ function criaFlappyBird() {
       flappyBird.velocidade = -flappyBird.pulo;
       console.log("[depois]", flappyBird.velocidade);
     },
-    gravidade: 2,
+    gravidade: 0.1,
     velocidade: 0,
     atualiza() {
       if (fazColisao(flappyBird, globais.chao)) {
