@@ -60,10 +60,6 @@ function criaChao() {
       const repeteEm = chao.largura / 2;
       const movimentacao = chao.x - movimentoDoChao;
 
-      // console.log('[chao.x]', chao.x);
-      // console.log('[repeteEm]',repeteEm);
-      // console.log('[movimentacao]', movimentacao % repeteEm);
-
       chao.x = movimentacao % repeteEm;
     },
     desenha() {
@@ -177,7 +173,6 @@ function criaFlappyBird() {
   return flappyBird;
 }
 
-/// [mensagemGetReady]
 const mensagemGetReady = {
   sX: 134,
   sY: 0,
@@ -223,9 +218,7 @@ const mensagemGameOver = {
   },
 };
 
-//
 // [Canos]
-//
 
 function criaCanos() {
   const canos = {
