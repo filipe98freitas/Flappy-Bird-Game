@@ -2,4 +2,4 @@
 
 # About the game
 
-#
+# Play now!
