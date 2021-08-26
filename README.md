@@ -3,4 +3,4 @@
 # About the game
 
 # Play now!
-## You can play oon this [link](https://filipe98freitas.github.io/Flappy-Bird-Game/)
+###### You can play on this [link](https://filipe98freitas.github.io/Flappy-Bird-Game/)
